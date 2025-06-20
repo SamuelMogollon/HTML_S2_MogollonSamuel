@@ -1,0 +1,12 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.circle {
+    width: 115px;
+    height: 120px;
+    border: 2px solid rgb(12, 11, 11);
+    border-radius: 50%;
+    margin: 10px auto;
+}
