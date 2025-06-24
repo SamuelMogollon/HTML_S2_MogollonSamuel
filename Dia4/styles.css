@@ -124,3 +124,64 @@ width: 169px;
 height: 169px;
 position: absolute;
 }
+.texto1 {
+    top: 1773px;
+left: 135px;
+width: 1664px;
+height: 60px;
+position: absolute;
+font-size: 60px;
+color: white;
+}
+.texto2 {
+    top: 2286px;
+left: 207px;
+width: 1492px;
+height: 110px;
+position: absolute;
+font-size: 50px;
+color: white;
+}
+.texto3 {
+    top: 2546px;
+left: 560px;
+width: 800px;
+height: 60px;
+position: absolute;
+font-size: 60px;
+color: white;
+}
+.texto4 {
+    top: 2881px;
+left: 269px;
+width: 1382px;
+height: 88px;
+position: absolute;
+font-size: 40px;
+color: white;
+}
+.texto5 {
+    top: 3127px;
+left: 418px;
+width: 1118px;
+height: 125px;
+position: absolute;
+font-size: 125px;
+color: white;
+}
+.texto6 {
+    top: 3296px;
+left: 181px;
+width: 1544px;
+height: 99px;
+position: absolute;
+font-size: 45px;
+color: white;
+}
+.final {
+    top: 4088px;
+left: 543px;
+width: 831px;
+height: 25px;
+position:absolute;
+}
