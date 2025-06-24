@@ -33,3 +33,94 @@ width: 556px;
 height: 313px;
 position: absolute;
 }
+.rectangulo {
+    top: 755px;
+left: 730px;
+width: 458px;
+height: 104px;
+position: absolute;
+}
+.primeraNube {
+    top: 1106px;
+left: 64px;
+width: 1792px;
+height: 567px;
+position: absolute;
+}
+.segundaNube {
+    top: 1717px;
+left: 64px;
+width: 1792px;
+height: 724px;
+position: absolute;
+}
+.terceraNube {
+    top: 2467px;
+left: 64px;
+width: 1792px;
+height: 567px;
+position: absolute;
+}
+.mac {
+    top: 3440px;
+left: 685px;
+width: 584px;
+height: 534px;
+position: absolute;
+}
+.iphone {
+    top: 3606px;
+left: 386px;
+width: 256px;
+height: 219px;
+position: absolute;
+}
+.pc {
+    top: 3587px;
+left: 1261px;
+width: 271px;
+height: 238px;
+position: absolute;
+}
+.space {
+    top: 1896px;
+left: 477px;
+width: 181px;
+height: 309px;
+position: absolute;
+}
+.reddot {
+    top: 1896px;
+left: 670px;
+width: 181px;
+height: 309px;
+position: absolute;
+}
+.soul {
+    top: 1896px;
+left: 863px;
+width: 180px;
+height: 309px;
+position: absolute;
+}
+.tentacles {
+    top: 1896px;
+left: 1055px;
+width: 181px;
+height: 309px;
+position: absolute;
+}
+.sentinell {
+    top: 1896px;
+left: 1248px;
+width: 181px;
+height: 309px;
+position: absolute;
+}
+.cancel {
+    top: 2650px;
+left: 876px;
+width: 169px;
+height: 169px;
+position: absolute;
+}
