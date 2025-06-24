@@ -1,0 +1,35 @@
+.fondoTwitch {
+    top: 0px;
+left: 0px;
+width: 1920px;
+height: 1080px;
+position: absolute;
+}
+.fondoNegro {
+    top: 0px;
+left: 2px;
+width: 1918px;
+height: 4149px;
+background: transparent;
+}
+.lupa {
+    top: 37px;
+left: 63px;
+width: 36px;
+height: 36px;
+position: absolute;
+}
+.login {
+    top: 30px;
+left: 1695px;
+width: 205px;
+height: 54px;
+position: absolute;
+}
+.logoPrime {
+    top: 227px;
+left: 682px;
+width: 556px;
+height: 313px;
+position: absolute;
+}
