@@ -103,6 +103,41 @@ body {
     position: absolute;
     cursor: pointer;
 }
+.fondo2 {
+   position: absolute;
+    width: 1920px;
+    height: 1080px;
+    display: block;
+    top: 1280px;
+    background-color: rgb(11, 8, 6);
+}
+.our {
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 85px;
+    position: absolute;
+    top: 240px;
+    left: 1100px;
+}
+.linea {
+    background-color: white;
+    border: none;
+    position: absolute;
+    border-radius: 5px;
+    width: 120px;
+    height: 0px;
+    top: 260px;
+    left: 900px;
+}
+
+.texto1 {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    top: 500px;
+    left: 1110px;
+    font-size: 20px;
+    position: absolute;
+}
 
 .menuInicio {
     color: white;
