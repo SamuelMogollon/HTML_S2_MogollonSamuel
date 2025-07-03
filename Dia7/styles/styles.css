@@ -1,3 +1,31 @@
+@font-face {
+    font-family: letraNueva;
+    src: url('../fonts/KGRedHands.ttf');
+}
+
 * {
-    background-color: rgb(15 23 42);
+    margin: 0%;
+    color: white;
+    font-family: letraNueva;
+}
+
+header {
+    background-color:#0c4a6e;
+
+}
+.Tlogo{
+    font-size: 1rem;
+    
+    background: linear-gradient(to right, rgb(255, 255, 255), rgb(78, 35, 194));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+body {
+    background-color:rgb(2 6 23);
+    width: 100vw;
+    display: grid;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
 }
