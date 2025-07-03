@@ -11,14 +11,22 @@
 
 header {
     background-color:#0c4a6e;
-
+    box-shadow: #0c4a6e;
+    display: grid;
+    align-items: center;
+    gap: 1px;
 }
+
 .Tlogo{
     font-size: 1rem;
-    
-    background: linear-gradient(to right, rgb(255, 255, 255), rgb(78, 35, 194));
+    background: white;
     -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
+}
+
+.Tlogo2{
+    font-size: 1rem;
+    background: rgb(127, 64, 228);
+    -webkit-background-clip: text;
 }
 
 body {
@@ -28,4 +36,51 @@ body {
     flex-wrap: wrap;
     flex-direction: column;
     justify-content: center;
+}
+
+.gridContainer1 {
+    display: grid;
+    gap: 20px;
+    grid-template:
+    "pterodactilo"
+    "fondoVerde"
+    "palabras"
+    "Trex";
+
+    .pterodactilo {
+        width: 30rem;
+    }
+
+    .palabras {
+        width: 30rem;
+    }
+
+    .fondoVerde {
+        width: 30rem;
+    }
+
+    .Trex {
+        width: 30rem;
+    }
+}
+
+.gridContainer2 {
+    display: grid;
+    gap: 20px;
+    grid-template:
+    "youGetNothing"
+    "triceratops"
+    "competitor";
+
+    .youGetNothing {
+        width: 30rem;
+    }
+
+    .triceratops {
+        width: 30rem;
+    }
+
+    .competitor {
+        width: 30rem;
+    }
 }
