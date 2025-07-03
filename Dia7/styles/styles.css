@@ -40,47 +40,78 @@ body {
 
 .gridContainer1 {
     display: grid;
+    margin: 3vi;
     gap: 20px;
     grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
 
     .pterodactilo {
-        width: 30rem;
+        width: 32rem;
         border-radius: 10px;
+        grid-column-start: 1;
+        grid-column-end: 2;
+        grid-row-start: 1;
+        grid-column-end:2 ;
     }
 
     .palabras {
-        width: 30rem;
+        width: 32rem;
         border-radius: 10px;
+        grid-column-start: 2;
+        grid-column-end: 4;
+        grid-row-start: 1;
+        grid-row-end: 4;
     }
 
     .fondoVerde {
-        width: 30rem;
+        width: 32rem;
         border-radius: 10px;
+        grid-column-start: 1;
+        grid-column-end: 2;
+        grid-row-start:2;
+        grid-row-end: 3;
     }
 
     .Trex {
-        width: 30rem;
+        width: 65rem;
         border-radius: 10px;
+        grid-column-start: 1;
+        grid-column-end: 3;
+        grid-row-start: 3;
+        grid-row-end: 4;
+        
     }
+   
+    
 }
 
 .gridContainer2 {
     display: grid;
+    margin: 3vi;
     gap: 20px;
     grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
 
     .youGetNothing {
-        width: 30rem;
+        width: 32rem;
         border-radius: 10px;
+        grid-column-start: 1;
+        grid-column-end: 2;
+        grid-row-start: 1;
+        grid-column-end:2 ;
     }
 
     .triceratops {
-        width: 30rem;
+        width: 32rem;
         border-radius: 10px;
     }
 
     .competitor {
-        width: 30rem;
+        width: 32rem;
         border-radius: 10px;
+        grid-column-start: 2;
+        grid-column-end: 4;
+        grid-row-start: 1;
+        grid-row-end: 4;
     }
 }
