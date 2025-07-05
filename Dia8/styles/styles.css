@@ -1,0 +1,67 @@
+body {
+    background-color: black;
+}
+
+.gridContainer {
+    background-color: black;
+    display: grid;
+    justify-content: center;
+    margin: 4vi;
+    padding: 2vi;
+    gap: 1vi;   
+    grid-template-columns: auto auto;
+    border-radius: 1vi;
+}
+
+.img1 img{
+    border-radius: 4vi;
+    height: 30vi;
+    width: 40vi;
+}
+
+.img2 img{
+    border-radius: 4vi;
+    height: 30vi;
+    width: 40vi;
+}
+
+.img3 img{
+    border-radius: 4vi;
+    height: 30vi;
+    width: 100%;
+}
+
+.img3{
+    grid-row: 1/2;
+    grid-column: 3/5;
+}
+
+.img4  img{
+    border-radius: 4vi;
+    height: 30vi;
+    width: 40vi;
+}
+
+.img5 img{
+    border-radius: 4vi;
+    height: 30vi;
+    width: 40vi;
+}
+
+.img6 img{
+    border-radius: 4vi;
+    height: 30vi;
+    width: 40vi;
+}
+
+.img7 img{
+    border-radius: 4vi;
+    height: 30vi;
+    width: 40vi;
+}
+
+.img8 img{
+    border-radius: 4vi;
+    height: 30vi;
+    width: 40vi;
+}
