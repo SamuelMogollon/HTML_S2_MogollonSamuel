@@ -1,6 +1,5 @@
 body{
     background-color: black;
-    
 }
 
 .complete{
@@ -24,7 +23,7 @@ body{
     margin-bottom: 5vi;
     background-size: cover;
     top: 10vi;
-    animation-name: walk;
+    animation: walk 500ms steps(5) infinite;
 }
 
 .sea{
@@ -33,6 +32,17 @@ body{
     height: 30vh;
 }
 
-@keyframes walk{
+.sky,.sea{
+    animation: movFondo 500ms steps(5) infinite;
     
+}
+
+@keyframes movFondo{
+    from {background-position: 0px;}
+    to {background-position: -550px;}
+}
+
+@keyframes walk{
+    from {background-position: 0px;}
+    to {background-position: -550px;}
 }
