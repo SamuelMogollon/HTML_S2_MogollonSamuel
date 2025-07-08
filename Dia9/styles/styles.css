@@ -1,4 +1,12 @@
 body{
+    background-color: black;
+    
+}
+
+.complete{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .sky{
@@ -12,8 +20,11 @@ body{
     position: fixed;
     background-image: url("../Resources/bernie.png");
     width: 30vh;
-    height: 36vh;
+    height: 38vh;
     margin-bottom: 5vi;
+    background-size: cover;
+    top: 10vi;
+    animation-name: walk;
 }
 
 .sea{
@@ -22,3 +33,6 @@ body{
     height: 30vh;
 }
 
+@keyframes walk{
+    
+}
